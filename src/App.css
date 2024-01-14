@@ -1,0 +1,130 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #27ae60, #3498db); /* Gradient background from green to blue */
+  color: #fff; /* White text color for better readability */
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow effect */
+  color: #333; /* Dark gray text color */
+}
+
+h1, h2 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Text shadow for titles */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.app.alice {
+  color: #ff69b4; /* Pink text color for Alice */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #3498db; /* Default blue color for buttons */
+  color: #fff; /* White text color */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.app.alice button {
+  background-color: #ff69b4; /* Pink color for buttons when Alice is logged in */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.app.alice button:hover {
+  background-color: #d64887; /* Darker pink on hover for Alice */
+}
+
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activities-container button {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Podium Styling for Ranking */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow effect */
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+}
+
+ul li:nth-child(1) {
+  background-color: #3498db; /* Blue for 1st place */
+}
+
+ul li:nth-child(2) {
+  background-color: #3498db; /* Blue for 2nd place */
+}
+
+ul li:nth-child(3) {
+  background-color: #3498db; /* Blue for 3rd place */
+}
+
+/* Image Upload Styling */
+img {
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow effect */
+}
+
+/* App.css */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-container div {
+  text-align: center;
+}
